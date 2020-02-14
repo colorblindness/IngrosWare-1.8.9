@@ -1,0 +1,16 @@
+[
+{
+  "modid": "ingrosware-1.8.9",
+  "name": "IngrosWare-1.8.9",
+  "description": "epic goodie bag.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["carroteater"],
+  "credits": "jeff",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

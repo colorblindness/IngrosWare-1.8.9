@@ -1,0 +1,24 @@
+{
+  "package": "ingros.ware.client.mixin.impl",
+  "refmap": "mixin.refmap.json",
+  "target": "@env(DEFAULT)",
+  "compatibilityLevel": "JAVA_8",
+  "verbose": false,
+  "mixins": [
+    "MixinMinecraft",
+    "MixinEntityRenderer",
+    "MixinEntity",
+    "MixinEntityPlayer",
+    "MixinEntityPlayerSP",
+    "MixinGuiScreen",
+    "MixinRender",
+    "MixinNetworkManager",
+    "MixinS27PacketExplosion",
+    "MixinS12PacketEntityVelocity",
+    "MixinBlock",
+    "MixinGuiChest",
+    "MixinPlayerControllerMP",
+    "MixinC03PacketPlayer",
+    "MixinAxisAlignedBB"
+  ]
+}
