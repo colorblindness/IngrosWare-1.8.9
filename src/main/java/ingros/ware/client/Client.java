@@ -19,9 +19,9 @@ public enum Client {
     private final CommandManager commandManager = new CommandManager();
 
     public void startupClient() {
+        moduleManager.setDir(new File(path.toString(), "modules"));
         moduleManager.initializeModules();
         moduleManager.loadModules();
-        moduleManager.setDir(new File(path.toString(), "modules"));
         commandManager.initialize();
         System.out.println("[IngrosWare] Loaded");
     }
